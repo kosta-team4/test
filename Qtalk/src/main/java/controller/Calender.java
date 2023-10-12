@@ -26,7 +26,7 @@ public class Calender extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("calendar.jsp").forward(request, response);
+		request.getRequestDispatcher("login.jsp").forward(request, response);
 	}
 
 }
